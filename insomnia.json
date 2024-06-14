@@ -1,0 +1,35 @@
+{
+    "_type": "export",
+    "_export_format": 4,
+    "_export_date": "2022-01-01T00:00:00.000Z",
+    "_export_source": "insomnia.desktop.app:v2021.5.2",
+    "resources": [
+      {
+        "_id": "req_123",
+        "_type": "request",
+        "parentId": "wrk_123",
+        "name": "Create Blog Post",
+        "method": "POST",
+        "url": "http://localhost:5000/blog",
+        "body": {
+          "mimeType": "application/json",
+          "text": "{\"id\": 1, \"title\": \"Test Post\", \"content\": \"This is a test post.\"}"
+        }
+      },
+      {
+        "_id": "req_456",
+        "_type": "request",
+        "parentId": "wrk_123",
+        "name": "Get Blog Posts",
+        "method": "GET",
+        "url": "http://localhost:5000/blog"
+      },
+      {
+        "_id": "wrk_123",
+        "_type": "workspace",
+        "parentId": null,
+        "name": "Blog Post API",
+        "description": ""
+      }
+    ]
+  }
